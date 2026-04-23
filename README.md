@@ -11,7 +11,6 @@ Heart Disease Health Indicators Dataset
 
 ## ⚙️ Methods
 - Logistic Regression (`class_weight='balanced'`)
-- Train/Test split
 - Feature usage: all available variables
 
 ## 📈 Evaluation
@@ -19,14 +18,5 @@ Heart Disease Health Indicators Dataset
 - Confusion Matrix
 - ROC-AUC
 - Distribution of predicted probabilities
-
-## 💡 Key Insights
-- High Recall for class 1 → model captures most high-risk patients  
-- Lower Precision → more false positives (acceptable in medical screening)  
-- ROC-AUC shows overall separability of classes  
-
-## 📊 Visualizations
-- Confusion Matrix  
-- ROC Curve  
-- Score distribution by class  
+ 
 
